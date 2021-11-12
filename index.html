@@ -335,10 +335,18 @@ Efi Arazi School of Computer Science IDC Herzliya, Israel </b></p>
               <div class="social">
                 
               </div>
-              <p><b>Title:</b> To be updated.</p>
+              <p><b>Title:</b> Compressed Σ-Protocol Theory</p>
 
               
-              <p align="justify"> <b>Abstract:</b> To be updated.</p>
+              <p align="justify"> <b>Abstract:</b> Σ-Protocols provide a well-understood basis for secure algorithmics. *Compressed* Σ-protocol theory (Attema & Cramer, CRYPTO 2020) has been introduced as a strengthening of the theory, yielding protocols with low communication complexity.
+
+It is built around basic Σ-protocols for proving that a compactly committed (long) vector satisfies a linear constraint. Using a recursive folding-technique, adapted from Bulletproofs (Bootle et al., EUROCRYPT 2016, and Bünz et al., S&P 2018), communication  of these protocols is first compressed from linear down to logarithmic.
+This comes at the expense of logarithmic rounds, which can be rendered non-interactive using the Fiat-Shamir heuristic. Proving in ZK that the secret vector satisfies a given arbitrary constraint -- captured by a (non-linear) circuit -- is then by (blackbox) reduction to the linear case, via arithmetic secret-sharing techniques adapted from MPC.
+
+This abstract modular theory has been instantiated from a variety of cryptographic hardness assumptions, i.e., the discrete-logarithm, strong-RSA, knowledge-of-exponent assumption (the latter with *constant* communication). This has been recently been further extended to the bilinear circuit model (Attema, Cramer & Rambaud, ASIACRYPT 2021).
+
+In a separate work (Attema, Cramer & Kohl, CRYPTO 2021), it has been shown how to base the theory on the ring-SIS assumption. Thus for all these platforms compressed Σ-protocol theory yields circuit zero-knowledge protocols with (poly)-logarithmic communication. Finally, it has been shown to apply the theory to so-called partial proofs of knowledge (Attema, Cramer & Fehr, CRYPTO 2021), i.e., directly, without recourse to circuits.
+</p>
 			  <p><b>Personal Webpage: </b>  <a href="https://homepages.cwi.nl/~cramer/" target="_blank">click here </a> </p>
 			  </div>
           </div>
