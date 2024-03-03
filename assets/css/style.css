@@ -477,7 +477,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 90px;
   right: 0;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/nitbg.png") top center;
   display: flex;
   justify-content: center;
   align-items: center;
