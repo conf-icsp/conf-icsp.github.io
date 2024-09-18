@@ -54,18 +54,35 @@
 }
 
 
+
         .image-row {
             display: flex;
-            justify-content: center; /* Centers the images horizontally */
-            gap: 20px; /* Adds space between the images */
+            justify-content: center;
+            gap: 20px;
             padding: 20px;
+            flex-wrap: wrap; /* Allows the images to wrap on small screens */
         }
         .image-row img {
-            max-width: 200px; /* Controls the width of the images */
+            max-width: 150px;
             height: auto;
         }
+        /* Media query for screens smaller than 600px (common mobile screen width) */
+        @media (max-width: 600px) {
+            .image-row img {
+                max-width: 100px; /* Scale down the images for smaller screens */
+            }
+        }
+        /* Media query for screens smaller than 400px (very small mobile screens) */
+        @media (max-width: 400px) {
+            .image-row img {
+                max-width: 80px; /* Further scale down for very small screens */
+            }
+        }
+
+    
  
 </style>      
+
 
 <body>
 
