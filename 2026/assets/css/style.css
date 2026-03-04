@@ -1645,3 +1645,26 @@ h1, h2, h3, h4, h5, h6 {
 .tgbank .tg-0aha{font-weight:bold;font-size:20px;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;;background-color:#6665cd;color:#ffffff;text-align:center;vertical-align:top;border-color:#ffffff;}
 .tgbank .tg-ttym{font-size:12px;background-color:#6665cd;color:#ffffff;vertical-align:top;border-color:#ffffff;}
 .tgbank .tg-y7zf{font-size:12px;background-color:#bbdaff;vertical-align:top;border-color:#ffffff;}
+
+
+
+
+/* Show full menu on mobile */
+@media (max-width: 991px) {
+
+  #navbar ul {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mobile-nav-toggle {
+    display: none !important;
+  }
+
+  #navbar li {
+    padding: 5px 8px;
+  }
+
+}
