@@ -504,7 +504,9 @@ h1, h2, h3, h4, h5, h6 {
 @keyframes heroSlider {
   0%   { background-image: url("../img/img11.png"); }
   10%  { background-image: url("../img/my_img_4_1.png"); }
+  15%  { background-image: url("../img/s1.jpeg"); }
   20%  { background-image: url("../img/my_img_6_1.png"); }
+  25%  { background-image: url("../img/a2.jpeg"); }
   30%  { background-image: url("../img/my_img_3.png"); }
   40%  { background-image: url("../img/img11.png"); }
   50%  { background-image: url("../img/my_img_5.jpg"); }
