@@ -508,16 +508,15 @@ h1, h2, h3, h4, h5, h6 {
   20%  { background-image: url("../img/my_img_6_1.png"); }
   25%  { background-image: url("../img/a2.jpeg"); }
   30%  { background-image: url("../img/my_img_3.png"); }
-  35%  { background-image: url("../img/c2.png"); }
-  40%  { background-image: url("../img/img11.png"); }
-  50%  { background-image: url("../img/my_img_5.jpg"); }
-  60%  { background-image: url("../img/my_img_2.png"); }
-  65%  { background-image: url("../img/w1.jpeg"); }
-  70%  { background-image: url("../img/my_img_7_1.png"); }
- 75%  { background-image: url("../img/c1.png"); }
+  40%  { background-image: url("../img/c2.jpg"); }
+  50%  { background-image: url("../img/img11.png"); }
+  60%  { background-image: url("../img/my_img_5.jpg"); }
+  65%  { background-image: url("../img/my_img_2.png"); }
+  70%  { background-image: url("../img/w1.jpeg"); }
+  75%  { background-image: url("../img/my_img_7_1.png"); }
   80%  { background-image: url("../img/my_img_8.png"); }
-  90%  { background-image: url("../img/my_img_9.png"); }
-  100% { background-image: url("../img/my_img_10.png"); }
+  850%  { background-image: url("../img/my_img_9.png"); }
+  90% { background-image: url("../img/my_img_10.png"); }
     100% { background-image: url("../img/my_img_11.png"); }
 }
 
